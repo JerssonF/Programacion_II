@@ -1,0 +1,27 @@
+<div class="card border-primary mb-3" >
+    <div class="card-header">Tareas</div>
+    <div class="card-body text-primary">
+      <h5 class="card-title">Listado de Tareas</h5>
+      <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Estado</th>
+                <th>Vencimiento</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let tareas of tareas">
+                <td>{{tareas.id}}</td>
+                <td>{{tareas.nombre}}</td>
+                <td>{{tareas.estado}}</td>
+                <td>{{tareas.vencimiento}}</td>
+                <td>{{tareas.createAt}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
