@@ -6,4 +6,4 @@
 III Semestre 2023B
 
 * [Taller](Taller/front)
-* [Taller](Taller_poo)
+* [Taller-POO](Taller_poo)
